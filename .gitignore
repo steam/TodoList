@@ -1,0 +1,6 @@
+build
+xcuserdata
+*.pbxuser
+archives
+project.xcworkspace/
+.DS_Store

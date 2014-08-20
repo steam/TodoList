@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		141DEE6719A385B6009C0CD9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DEE6619A385B6009C0CD9 /* AppDelegate.swift */; };
-		141DEE6919A385B6009C0CD9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DEE6819A385B6009C0CD9 /* ViewController.swift */; };
 		141DEE6C19A385B6009C0CD9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 141DEE6A19A385B6009C0CD9 /* Main.storyboard */; };
 		141DEE6E19A385B6009C0CD9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 141DEE6D19A385B6009C0CD9 /* Images.xcassets */; };
 		141DEE7A19A385B6009C0CD9 /* TodoListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DEE7919A385B6009C0CD9 /* TodoListTests.swift */; };
+		141DEE8419A3885F009C0CD9 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 141DEE8319A3885F009C0CD9 /* ListViewController.swift */; };
+		145AD09919A3F335006573B9 /* NewTodoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145AD09819A3F335006573B9 /* NewTodoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,12 +29,13 @@
 		141DEE6119A385B6009C0CD9 /* TodoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		141DEE6519A385B6009C0CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141DEE6619A385B6009C0CD9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		141DEE6819A385B6009C0CD9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		141DEE6B19A385B6009C0CD9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		141DEE6D19A385B6009C0CD9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		141DEE7319A385B6009C0CD9 /* TodoListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		141DEE7819A385B6009C0CD9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		141DEE7919A385B6009C0CD9 /* TodoListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListTests.swift; sourceTree = "<group>"; };
+		141DEE8319A3885F009C0CD9 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		145AD09819A3F335006573B9 /* NewTodoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTodoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,10 +78,11 @@
 			isa = PBXGroup;
 			children = (
 				141DEE6619A385B6009C0CD9 /* AppDelegate.swift */,
-				141DEE6819A385B6009C0CD9 /* ViewController.swift */,
 				141DEE6A19A385B6009C0CD9 /* Main.storyboard */,
 				141DEE6D19A385B6009C0CD9 /* Images.xcassets */,
 				141DEE6419A385B6009C0CD9 /* Supporting Files */,
+				141DEE8319A3885F009C0CD9 /* ListViewController.swift */,
+				145AD09819A3F335006573B9 /* NewTodoViewController.swift */,
 			);
 			path = TodoList;
 			sourceTree = "<group>";
@@ -208,8 +211,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				141DEE6919A385B6009C0CD9 /* ViewController.swift in Sources */,
 				141DEE6719A385B6009C0CD9 /* AppDelegate.swift in Sources */,
+				145AD09919A3F335006573B9 /* NewTodoViewController.swift in Sources */,
+				141DEE8419A3885F009C0CD9 /* ListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,6 +401,7 @@
 				141DEE7F19A385B6009C0CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		141DEE8019A385B6009C0CD9 /* Build configuration list for PBXNativeTarget "TodoListTests" */ = {
 			isa = XCConfigurationList;
@@ -405,6 +410,7 @@
 				141DEE8219A385B6009C0CD9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
